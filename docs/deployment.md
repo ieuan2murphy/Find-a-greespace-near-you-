@@ -8,4 +8,4 @@ After ensuring all aspects of the application ran smoothly, we began rolling out
 
 ![GreenspacesmapUI](https://github.com/ieuan2murphy/Greenscapes/assets/146727959/974a8ef5-e658-46f6-89fd-dec057d137b1)
 
-With this new addition, users will now be able to interact with fellow greenspace lovers like never before! This also allows the user to see how other people think about spaces and find the perfect greenspace for them.
+With this new addition, users will now be able to interact with fellow greenspace lovers like never before! This also allows the user to see how other people think about spaces and find the perfect greenspace for them. Furthermore, we have also implemented a suggestion tab inside of the profile aspect of the application. This will allow the user to submit any ideas or useful feedback to us so we can continue to improve the lives of people one greenspace at a time.
