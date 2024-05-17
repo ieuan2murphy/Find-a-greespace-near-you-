@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
 <head>
     <title>Nearby Greenspaces</title>
     <style>
@@ -119,7 +119,7 @@
                 }
             });
         }
-
+// unsure if this works as intended or at all come back to this
         function getDistance(position1, position2) {
             const R = 6371; // Radius of the Earth in km
             const dLat = deg2rad(position2[0] - position1.lat);
@@ -135,7 +135,7 @@
         function deg2rad(deg) {
             return deg * (Math.PI / 180);
         }
-
+// double check this later
         function searchLocation(location) {
             L.Control.geocoder().geocode(location, results => {
                 if (results.length > 0) {

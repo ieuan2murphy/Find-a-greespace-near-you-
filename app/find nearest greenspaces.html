@@ -60,7 +60,7 @@
                 handleLocationError(false);
             }
         }
-
+// double check this later 
         function handleLocationError(browserHasGeolocation) {
             const content = browserHasGeolocation
                 ? 'Error: The Geolocation service failed.'
@@ -84,7 +84,7 @@
                 }
             });
         }
-
+// update api later not sure if it works 
         function getDistance(position1, position2) {
             const R = 6371; // Radius of the Earth in km
             const dLat = deg2rad(position2[0] - position1.lat);
