@@ -1,1 +1,79 @@
-g
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        #login-screen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #login-form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+        #login-form input {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #login-form button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        #login-form button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div id="login-screen">
+        <form id="login-form">
+            <h2>Login</h2>
+            <input type="text" id="username" placeholder="Username" required />
+            <input type="password" id="password" placeholder="Password" required />
+            <button type="button" id="login-button">Login</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('login-button').addEventListener('click', () => {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Hardcoded credentials for demonstration purposes
+            const validUsername = 'user';
+            const validPassword = 'password';
+
+            if (username === validUsername && password === validPassword) {
+                alert('Login successful!');
+                // Redirect to another page or display the main application
+                // window.location.href = 'main.html';
+            } else {
+                alert('Invalid username or password.');
+            }
+        });
+    </script>
+</body>
+</html>
+
