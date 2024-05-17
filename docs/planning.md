@@ -24,5 +24,8 @@ People today are more inclined to stay indoors due to a variety of reasons. Some
 
 Going outside and being in a relaxing green space presents you with a copious amount of benefits, many of which, the people of today lack due to the sky rocket in technology. 
 
+### Further additions/future improvement
+Going forward, there will be more and more features added to this application as it is highly suseptable to change. Addition of a suggestions button which allowes the user to submit any ideas or useful feedback to us to further improve user experience is a prime example of improvement.
+
 
 
