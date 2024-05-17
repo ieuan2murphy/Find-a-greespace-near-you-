@@ -5,3 +5,7 @@ During this phase, getting the users location, local api data and the system to 
 
 ## Futher Release 
 After ensuring all aspects of the application ran smoothly, we began rolling out a login and home page section of the application which allowed users to have that personalised experience. In addition to this new release, clicking on a greenspace allows the user to now see comments made on that particular space made by other users in the local area or by staff members. 
+
+![GreenspacesmapUI](https://github.com/ieuan2murphy/Greenscapes/assets/146727959/974a8ef5-e658-46f6-89fd-dec057d137b1)
+
+With this new addition, users will now be able to interact with fellow greenspace lovers like never before! This also allows the user to see how other people think about spaces and find the perfect greenspace for them.
